@@ -15,6 +15,7 @@ then position yourself into your catkin workspace and run `catkin_make`
 ## Running
 
 To get it working, just run the various nodes:
+
 `rosrun guessingGame guessingGame.py`
 
 `rosrun guessingGame movement.py`
