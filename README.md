@@ -3,6 +3,11 @@
 This is a project involing a robot called Link that utilizes ROS to recognize human speech and act according to certain input phrases. 
 
 ## Installation
+requirements:
+- ROS Noetic 
+- Vosk
+
+this application depends on vosk to recognize speech, therefore installing vosk is necessary, so just follow the steps at https://github.com/alphacep/ros-vosk
 
 first clone the git
 ```
