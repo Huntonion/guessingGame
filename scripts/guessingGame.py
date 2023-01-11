@@ -44,6 +44,8 @@ def callback(data):
         if(wordsInPhrase[0] == 'link' and 'stop' in wordsInPhrase):
             print("stopping the guessing game")
             ingame = False
+            correctCounter = 0
+            firstGuess = True
         else:
             if wordToGuess in wordsInPhrase:
 
