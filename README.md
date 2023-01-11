@@ -24,5 +24,4 @@ To get it working, just run the various nodes:
 
 `rosrun ros_vosk vosk_node.py`
 
-
-Enjoy!
+Then, the user can engage in a minigame by telling the robot phrases such as "Link, start the guessing game." or can order the robot to dance and move by saying "Link, come here" and "Link, dance".
