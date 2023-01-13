@@ -2,13 +2,15 @@
 
 This is a project involing a robot called turtlebot3 that utilizes ROS to recognize human speech and act according to certain input phrases. 
 
-## Installation
-requirements:
+## Requirements
+
 - ROS Noetic 
 - Vosk
 - turtlebot3 (please follow the guide on https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ on how to setup turtlebot3)
 
 this application depends on vosk to recognize speech, therefore installing vosk is necessary, so just follow the steps at https://github.com/alphacep/ros-vosk
+
+## Installation
 
 first clone the git
 ```
