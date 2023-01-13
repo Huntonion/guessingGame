@@ -1,6 +1,4 @@
-![]
-(https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif
-)
+![](https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif)
 
 # Guessing Game
 
