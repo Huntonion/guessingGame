@@ -3,7 +3,7 @@
 # Guessing Game
 
 
-This is a project involing a robot called turtlebot3 that utilizes ROS to recognize human speech and act according to certain input phrases. 
+This is a project involving a robot called turtlebot3 that utilizes ROS to recognize human speech and act according to certain input phrases. 
 
 ## Requirements
 
