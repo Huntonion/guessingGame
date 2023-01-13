@@ -1,6 +1,8 @@
-![](https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif)
-
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif" />
+</p>
 # Guessing Game
+
 
 This is a project involing a robot called turtlebot3 that utilizes ROS to recognize human speech and act according to certain input phrases. 
 
