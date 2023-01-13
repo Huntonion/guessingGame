@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="http://some_place.com/image.png](https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif" />
-</p>
+![](https://github.com/Huntonion/guessingGame/blob/main/media/turtle.gif)
 
 # Guessing Game
 
