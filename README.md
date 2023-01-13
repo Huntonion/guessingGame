@@ -16,7 +16,6 @@ first clone the git
 ```
 git clone https://github.com/Huntonion/guessingGame.git
 ```
-this application depends on vosk to recognize speech, therefore installing vosk is necessary, so just follow the steps at https://github.com/alphacep/ros-vosk to get it working.
 
 then position yourself into your catkin workspace and run `catkin_make`
 
