@@ -1,11 +1,12 @@
 # Guessing Game
 
-This is a project involing a robot called Link that utilizes ROS to recognize human speech and act according to certain input phrases. 
+This is a project involing a robot called turtlebot3 that utilizes ROS to recognize human speech and act according to certain input phrases. 
 
 ## Installation
 requirements:
 - ROS Noetic 
 - Vosk
+- turtlebot3 (please follow the guide on https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ on how to setup turtlebot3)
 
 this application depends on vosk to recognize speech, therefore installing vosk is necessary, so just follow the steps at https://github.com/alphacep/ros-vosk
 
@@ -29,4 +30,4 @@ To get it working, just run the various nodes:
 
 `rosrun ros_vosk vosk_node.py`
 
-Then, the user can engage in a minigame by telling the robot phrases such as "Link, start the guessing game." or can order the robot to dance and move by saying "Link, come here" and "Link, dance".
+Then, the user can engage in a minigame by telling the robot phrases such as "Turtle, start the guessing game." or can order the robot to dance and move by saying "Turtle, move forward" and "Turtle, dance".

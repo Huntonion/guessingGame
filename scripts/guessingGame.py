@@ -28,7 +28,7 @@ def callback(data):
     #logic to apply if the robot is not in the guessing game. 
     #if the user wishes to start a game, a series of variable settings are performed.
     if not ingame:
-        if(wordsInPhrase[0] == 'link' and 'guessing' in wordsInPhrase):
+        if(wordsInPhrase[0] == 'turtle' and 'guessing' in wordsInPhrase):
            wordlist = shapes + colors + animals 
            wordToGuess = random.choice(wordlist)
            wordlist.remove(wordToGuess)
@@ -41,7 +41,7 @@ def callback(data):
     #value 5, the game ends.
 
     if ingame:
-        if(wordsInPhrase[0] == 'link' and 'stop' in wordsInPhrase):
+        if(wordsInPhrase[0] == 'turtle' and 'stop' in wordsInPhrase and 'guessing' in wordsInPhrase and ingame == True):
             print("stopping the guessing game")
             ingame = False
             correctCounter = 0
@@ -93,7 +93,7 @@ def guessingGame():
 def wonGame():
 
     print("sending dancing message")
-    pub.publish("dancing")
+    pub.publish("turtle dance")
 
 
 
