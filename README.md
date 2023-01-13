@@ -23,12 +23,16 @@ then position yourself into your catkin workspace and run `catkin_make`
 
 To get it working, just run the various nodes:
 
+`roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch`
+
+`roslaunch turtlebot3_example interactive_markers.launch`
+
+`rosrun ros_vosk vosk_node.py`
+
 `rosrun guessingGame guessingGame.py`
 
 `rosrun guessingGame movement.py`
 
 `rosrun guessingGame dance.py`
-
-`rosrun ros_vosk vosk_node.py`
 
 Then, the user can engage in a minigame by telling the robot phrases such as "Turtle, start the guessing game." or can order the robot to dance and move by saying "Turtle, move forward" and "Turtle, dance".
